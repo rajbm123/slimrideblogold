@@ -1,0 +1,224 @@
+body {
+	background-color: #F2F2F2;
+}
+.navbar-blog {
+	background-color: #fff;
+	border-color: #fff; 
+	border-radius: 0px; 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.37);
+}
+.navbar-blog .navbar-nav.nav li a {
+	color: #4CAF50;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 15px 25px;
+} 
+.navbar-blog .navbar-header .navbar-brand {
+	color: #4CAF50;
+	font-size: 21px;
+    margin: 8px 0;
+}
+a.sign-up-ride {
+    border: 1px solid #4CAF50;
+}
+a.sign-up-ride:hover {
+    background: #4CAF50 !important;
+    color: #fff !important;
+}
+.navbar-blog .navbar-right {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.first-container {
+	padding-top: 88px;
+}
+.well {
+	background-color: #fff;
+}
+.search-blog {
+	display: flex;
+}
+.search-blog .form-group {
+	margin-bottom: 0;
+	height: 40px;
+}
+.search-blog .form-group input:focus {
+	margin-bottom: 0;
+	height: 40px;
+	border-color: #4CAF50;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(76, 175, 80, 0.63);
+}
+.search-blog .search-blog-search-field {
+	width: 75%;
+}
+.search-blog .search-blog-search-button {
+	width: 25%;
+	margin-left: 3px;
+}
+.text-posts p {
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+.text-posts p:last-child {
+	margin-bottom: 0px;
+}
+.text-posts p a {
+	text-decoration: underline;
+	color: #4CAF50;
+}
+.search-blog .search-blog-search-button button.btn{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px; 
+	border: 1px solid #4CAF50; 
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	background-color: #4CAF50;
+}
+.search-blog .search-blog-search-field input {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px; 
+}
+.text-heading h3 {
+	font-weight: 500;
+	color: #707070;
+	font-size: 21px;
+}
+.blog-img {
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+}
+.blog-paragrap {
+	padding: 15px 0;
+}
+.blog-paragrap p {
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.start-ride {
+	padding: 15px;
+	border: 1px solid #666;
+	border-radius: 4px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.start-ride p:last-child {
+	margin-bottom: 0;
+}
+.blog-sign-up {
+	background-color: #4CAF50;
+	padding: 15px;
+}
+.blog-sign-up h3 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.blog-sign-up p {
+	margin: 0px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: arial;
+}
+.thumb {
+	width: 75px;
+	border: 1px solid #C3C3C3;
+	border-radius: 4px;
+}
+.media-body p {
+	font-size: 13px;
+	color: #555;
+}
+.facebook, .twitter, .google. {
+	clear: both;
+	display: block;
+	height: 45px;
+	width: 100%;
+	text-align: center;	
+	cursor: pointer;
+}
+.facebook {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 45px;
+	background-color: #2b4170;
+	background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+}
+.twitter {
+	text-decoration: none;
+	color: #fff;
+	line-height: 45px;
+	font-size: 18px;
+	background-color: #2b4170;
+	margin: 5px 0;
+	background: -webkit-linear-gradient(top, #00aced, #0081ce);
+}
+.google {
+	text-decoration: none;
+	color: #fff;
+	line-height: 45px;
+	font-size: 18px;
+	background-color: #2b4170;
+	background: -webkit-linear-gradient(top, #e64522, #c33219);
+}
+.blog-comment span {
+	color: red;
+}
+.blog-comment-form textarea {
+	border-radius: 0px;
+}
+.blog-comment .form-group label {
+	font-size: 14px;
+	font-weight: 400;
+}
+.blog-comment-text-fields {
+	width: 400px;
+}
+.blog-comment-text-fields .form-control {
+	height: 40px;
+	border-radius: 0px;
+}
+.post-comment-btn {
+	background-color: #e6e6e6;
+	border-radius: 0px;
+}
+.blog-social-icons a i.fa {
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 0;	color: #fff;
+	font-size: 19px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12) !important;
+}
+.blog-social-icons a i.fa.fa-facebook {
+	background-color: #2b4170;
+	background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+}
+.blog-social-icons a i.fa.fa-twitter {
+	background-color: #2b4170;
+	background: -webkit-linear-gradient(top, #00aced, #0081ce);
+}
+.blog-social-icons a i.fa.fa-google-plus {
+	background-color: #2b4170;
+	background: -webkit-linear-gradient(top, #e64522, #c33219);
+}
+.blog-social-icons a i.fa.fa-linkedin {
+ background-color: #1D87BD;	
+}
+
+.blog-social-icons h4 {
+	color: #4CAF50;
+	margin: 0px 0px 6px 0px;
+	font-size: 16px;
+    letter-spacing: 1px;
+}
